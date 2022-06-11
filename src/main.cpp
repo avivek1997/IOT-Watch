@@ -47,7 +47,7 @@ void HandleVibrationSensor()
   }
 }
 
-BLYNK_WRITE(V1) {
+BLYNK_WRITE(V4) {
   GpsParam gps(param);
 
   // Print 6 decimal places for Lat, Lon
